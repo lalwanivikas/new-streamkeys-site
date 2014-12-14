@@ -1,0 +1,404 @@
+/* General rules to modify browser default styles */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	margin: 15px 0 15px;
+	font-size: 40px;
+	font-weight: 200;
+	letter-spacing: 2px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+	font-size: 25px;
+	font-weight: 200;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h3{
+	margin: 15px 0 40px;
+	font-size: 18px;
+	font-weight: 200;
+	letter-spacing: 2px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #8B8989;
+}
+
+a:visited {
+	color: #8B8989;
+}
+
+
+/* Class to keep content centered and within 960px */
+
+.centered{
+	margin: 0px auto;
+	width: 960px;
+	min-width: 960px;
+	padding: 0 10px 0 10px;
+}
+
+
+/* Styles for header elements */
+
+header ul {
+	margin: 25px 0px 20px;
+ 	font-size: 18px;
+ 	font-weight: 200;
+ 	line-height: 1.5;
+ 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+ 	letter-spacing: 1.5px;
+	list-style-type: none;
+	text-align: right;
+}
+
+header li {
+	display: inline;
+	padding-left: 15px;
+}
+
+header li a:hover {
+	border-top: 2px solid #3A539B;
+	padding-top: 8px;
+}
+
+#logo li{
+	display: inline;
+	float: left;
+	font-size: 22px;
+	font-weight: 800;
+}
+
+#logo li a {
+	color: #2574A9;
+}
+
+#logo li a:hover {
+	border-top: 2px solid #3A539B;
+	border-bottom: 2px solid #3A539B;
+	padding: 8px 0;
+	transition: all .25s linear;
+}
+
+/* Class to apply blue background to div elements */
+
+.blue-banner {
+	background-color: #2880C7;
+	padding: 60px 0 120px 0;
+	min-width: 1000px;
+
+}
+
+
+/* Styles for two column content and main/hero content of home page */
+
+.main-container-left {
+	width: 48%;
+	display: inline-block;
+	vertical-align: middle;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-top: 25px;
+}
+
+.main-container-right{
+	padding: 50px 0 0 20px;
+	width: 48%;
+	display: inline-block;
+	vertical-align: middle;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #eee;
+}
+
+.main-container-left h1, h3{	
+	color: #eee;
+}
+
+#download-button {
+	padding: 15px;
+	border: 1px solid #eee;
+	cursor: pointer;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	font-weight: 100;
+	letter-spacing: 2px;
+	color: #eee;
+	background-color: #19486a;
+	border-radius: 5px;
+}
+
+#download-button:hover {
+	background-color: #eee;
+	color: #19486a;
+	transition-duration: 0.4s;
+}
+
+
+/* Styles for lis of sites */
+
+.site-list {
+	margin-bottom: 50px;
+}
+
+.site-list h1{
+	margin: 50px 0;
+	text-align: center;
+}
+
+.site-list h2{
+	margin: 50px 0 50px 0;
+	padding-right: 350px;
+	text-align: right;
+}
+
+.site-list h2 a:hover{
+	border-bottom: 2px dotted #000;
+}
+
+td {
+	width: 192px;
+	height: 200px;
+	text-align: center;
+}
+td img {
+	border: 2px solid transparent;
+	border-radius: 25px;
+}
+
+td p {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 200;
+	padding-top: 10px;
+	color: #8B8989;
+}
+
+.site-list a:hover{
+	-webkit-filter: grayscale(1);
+	transition-duration: 0.25s;
+}
+
+
+/* Styles for request form */
+
+.request-form input{
+	height: 40px;
+	width: 400px;
+	margin: 10px 0;
+	padding-left: 10px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	outline: none;
+}
+
+.request-form textarea{
+	height: 100px;
+	width: 400px;
+	margin: 10px 0;
+	padding: 10px 0 0 10px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	outline: none;
+}
+
+.request-form input:focus, textarea:focus {
+  box-shadow: 0 0 10px #22313F;
+}
+
+#site-submit-button {
+	margin: 20px 0 0 0;
+	padding: 15px;
+	border: 1px solid #eee;
+	cursor: pointer;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+	letter-spacing: 2px;
+	color: #eee;
+	background-color: #19486a;
+	border-radius: 5px;
+}
+
+#site-submit-button:hover {
+	background-color: #eee;
+	color: #19486a;
+	transition-duration: 0.4s;
+}
+
+
+/* Styles for footer */
+
+footer {
+	text-align: center;
+	margin: 20px 0;
+}
+
+footer ul {
+	margin: 50px 0;
+}
+
+footer li {
+	display: inline;
+	list-style-type: none;
+	padding: 20px 20px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 200;
+	color: #000;
+}
+
+footer a:hover {
+	padding-bottom: 2px;
+	border-bottom: 1px dotted #8B8989;
+}
+
+
+/*********************************
+**********************************
+********* CSS for FAQ page ****
+********************************** */
+
+
+.faq {
+	margin-bottom: 50px;
+}
+
+.faq h1, h2{
+	padding: 25px 250px 10px 10px;
+}
+
+.faq p {
+	padding: 0 250px 10px 20px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 200;
+	letter-spacing: 1px;
+	line-height: 1.5;
+}
+
+
+/*********************************
+**********************************
+********* CSS for Contact Page ****
+********************************** */
+
+
+.contact {
+	margin-bottom: 50px;
+}
+
+.contact h1{
+	padding: 25px 250px 10px 10px;
+}
+
+.contact p {
+	padding: 0 250px 10px 20px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 200;
+	letter-spacing: 1px;
+	line-height: 1.5;
+}
+
+
+/*********************************
+**********************************
+********* CSS for Guide Page ****
+********************************** */
+
+.gudie ul li{
+	list-style-type: none; 
+}
+
+.guide h1, h2{
+	padding: 25px 250px 10px 10px;
+}
+
+.guide p, h4 {
+	padding: 0 250px 10px 20px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 200;
+	letter-spacing: 1px;
+	line-height: 1.5;
+}
+
+.guide h4 {
+	font-weight: bold;
+}
+
+#hotkeys{
+	margin-bottom: 50px;
+}
+
+#hotkeys li{
+	list-style-type: none;
+}
+
+.image-container {
+	display: inline-block;
+	width: 30%;
+	margin: 20px 0 20px 20px;
+	text-align: center;
+	vertical-align: bottom;
+
+}
+
+.image-container img {
+	padding: 10px 10px;
+	border-radius: 5px;
+	border: 5px solid transparent;
+	width: 90%;
+	height: auto;
+}
+
+.image-container img:hover {
+	border: 5px solid #2880C7;
+}
+
+.image-container p{
+	padding: 10px 0;
+	width: 90%;
+	height: auto;
+}
+
+/*********************************
+**********************************
+********* CSS for Changelog page ****
+********************************** */
+
+
+.list-group {
+	list-style-type: none;
+}
+
+.list-group h3 {
+	padding-left: 20px;
+	color: #000;
+	font-weight: 500;
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+.list-group p {
+	padding-left: 30px;
+}
+
+
+
+
+
+
