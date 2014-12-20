@@ -105,11 +105,11 @@ header li a:hover {
 	display: inline-block;
 	vertical-align: middle;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	padding-top: 25px;
+	padding: 25px 0 0 20px;
 }
 
 .main-container-right{
-	padding: 50px 0 0 20px;
+	padding: 50px 0 0 10px;
 	width: 48%;
 	display: inline-block;
 	vertical-align: middle;
@@ -286,7 +286,7 @@ footer a:hover {
 }
 
 .faq p {
-	padding: 0 250px 10px 20px;
+	padding: 0 250px 10px 10px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	font-weight: 200;
@@ -312,7 +312,7 @@ footer a:hover {
 }
 
 .contact p {
-	padding: 0 250px 10px 20px;
+	padding: 0 250px 10px 10px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	font-weight: 200;
@@ -339,7 +339,7 @@ footer a:hover {
 }
 
 .guide p, h4 {
-	padding: 0 250px 10px 20px;
+	padding: 0 250px 10px 10px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	font-weight: 200;
@@ -408,7 +408,7 @@ footer a:hover {
 }
 
 .list-group p {
-	padding-left: 30px;
+	padding-left: 20px;
 }
 
 
