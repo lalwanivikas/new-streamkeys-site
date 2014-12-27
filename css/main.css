@@ -371,7 +371,7 @@ footer a:hover {
 .image-container img {
 	padding: 10px 10px;
 	border-radius: 5px;
-	border: 5px solid transparent;
+	border: 5px solid #ecf0f1;
 	width: 90%;
 	height: auto;
 }

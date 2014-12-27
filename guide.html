@@ -21,20 +21,11 @@
       <meta name="msapplication-TileColor" content="#00aba9">
       <meta name="msapplication-config" content="/favicons/browserconfig.xml">
       <link href = "css/main.css" rel="stylesheet">
+      <link href="css/lightbox.css" rel="stylesheet">
     </head>
     
     <body>
       <header class="centered">
-
-        <!-- Main nav text -->
-        <!-- div class="">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-content">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div> -->
 
         <ul id="logo">
           <li><a href="index.html">Streamkeys</a></li>
@@ -51,34 +42,6 @@
 
       <hr width="100%" color="#e8e8e8" height="2px"/>
       
-      <!-- Div for Setup Guide -->
-
-      <!-- <div id="installed" style="display: none;" class="new-version-alert">
-        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-        <h1>Streamkeys has been installed!</h1>
-        <h2>Please refresh any currently open media player tabs to connect them to Streamkeys. Read the section below for a quick start guide.</h2>
-        <h2>Note: This page will only be loaded once on update or install.</h2>
-      </div>
-
-      <div id="updated" style="display: none;" class="new-version-alert">
-        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-        <h1>Streamkeys has been updated.</h1>
-        <h2>New Version:</h2>
-        <ul>
-          <li>
-            <h2>Due to recent Chrome changes you might have to re-enable the extension after update! Enter chrome://extensions in the URL bar to do so.</h2>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <h2>v1.4.2</h2>
-              <p>Fix bugs with Amazon (thanks <a href="https://github.com/Tito1337" target="_blank">@Tito1337</a>!) and Bop.fm<br> Added support for Beats Music (thanks <a href="https://github.com/joero4" target="_blank">@joero4</a>!) and RadioSwissJazz.ch
-              </p>
-          </li>
-        </ul>
-        <h2>Note: This page will only be loaded once on update.</h2>
-      </div> -->
-      
       <div class="centered guide">
 
         <h1>Setup Guide</h1> 
@@ -89,17 +52,17 @@
           <div>
 
             <div class="image-container">
-              <a href="https://s3.amazonaws.com/streamkeys/step1-812b0f4b91d7b3865540f1b16ade3dcd.png" class="thumbnail" data-toggle="lightbox" data-title="Extensions Page" data-footer="<b>Step 1.</b> Go to Chrome extensions page" data-gallery="guide-gallery" data-parent=".guide-image-row"><img src="https://s3.amazonaws.com/streamkeys/step1-812b0f4b91d7b3865540f1b16ade3dcd.png" alt="Step 1"></a>
+              <a href="https://s3.amazonaws.com/streamkeys/step1-812b0f4b91d7b3865540f1b16ade3dcd.png" data-lightbox="steps" data-title="1. Go to extensions page."><img src="https://s3.amazonaws.com/streamkeys/step1-812b0f4b91d7b3865540f1b16ade3dcd.png" alt="Step 1"></a>
               <p>1. Go to extensions page.</p>
             </div>
 
             <div class="image-container">
-              <a href="https://s3.amazonaws.com/streamkeys/step2-cca99d4f15e2c61745a8b15a9175d7f9.png" class="thumbnail" data-toggle="lightbox" data-title="Keyboard Shortcuts" data-footer="<b>Step 2.</b> Click keyboard shortcuts at bottom of extension page" data-gallery="guide-gallery" data-parent=".guide-image-row"><img src="https://s3.amazonaws.com/streamkeys/step2-cca99d4f15e2c61745a8b15a9175d7f9.png" alt="Step 2"></a>
+              <a href="https://s3.amazonaws.com/streamkeys/step2-cca99d4f15e2c61745a8b15a9175d7f9.png" data-lightbox="steps" data-title="2. Click keyboard shortcuts."><img src="https://s3.amazonaws.com/streamkeys/step2-cca99d4f15e2c61745a8b15a9175d7f9.png" alt="Step 2"></a>
               <p>2. Click keyboard shortcuts.</p>
             </div>
 
             <div class="image-container">
-              <a href="https://s3.amazonaws.com/streamkeys/step3-294237f204d142e212eaf053be742ac3.png" class="thumbnail" data-toggle="lightbox" data-title="Shortcuts Popup" data-footer="<b>Step 3.</b> Set new shortcuts" data-gallery="guide-gallery" data-parent=".guide-image-row"><img src="https://s3.amazonaws.com/streamkeys/step3-294237f204d142e212eaf053be742ac3.png" alt="Step 3"></a>
+              <a href="https://s3.amazonaws.com/streamkeys/step3-294237f204d142e212eaf053be742ac3.png" data-lightbox="steps" data-title="3. Set new shortcuts."><img src="https://s3.amazonaws.com/streamkeys/step3-294237f204d142e212eaf053be742ac3.png" alt="Step 3"></a>
               <p>3. Set new shortcuts.</p>
             </div>
 
@@ -135,7 +98,7 @@
         <div class="centered">      
           <div id="request-form-text" class="main-container-left">
             <h1>Is your favorite site still missing?</h1>
-            <h3>Fill the form and we'll add it asap :)</h3>
+            <h3>Fill the form and we'll add it :)</h3>
           </div>
           
           <div class="main-container-right request-form">
@@ -177,10 +140,13 @@
             <li><a href="https://github.com/berrberr/gshotkeys" target="_blank">View Source</a></li>
             <li><a href="https://github.com/berrberr/gshotkeys/issues" target="_blank">Issue Tracker</a></li>
             <li><a href="mailto:alex@aegabriel.com">alex@aegabriel.com</a></li>
+            <li><a href="https://github.com/lalwanivikas" target="_blank">Design By Vikas</a></li>
           </ul>
       </footer>
 
-    <script src="https://s3.amazonaws.com/streamkeys/main-1498e002eac6d1786d3b02a4042f0dd4.js"></script>
+      <script src="https://s3.amazonaws.com/streamkeys/main-1498e002eac6d1786d3b02a4042f0dd4.js"></script>
+      <script type="text/javascript" src="scripts/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="scripts/lightbox.min.js"></script>
 
       <!-- Google Analytics -->
       <script>
